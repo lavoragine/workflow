@@ -1,0 +1,133 @@
+---
+title:
+  main: Una mirada interrogativa & altres textos errants
+  short: Una mirada interrogativa
+  subtitle: & altres textos errants
+edition_number: 1ª
+pub_date: 2017-04-23
+creators:
+  - first_name: Jaume
+    last_name: Benavente
+    role: aut
+    bio: "<strong>Jaume Benavente i Cassanyes</strong> (Barcelona, 1958) es un escritor catalán, autor de quince libros. En su primera infancia, vivió en Brasil, donde emigró con su familia. Licenciado en Bellas Artes, ha trabajado con dibujante, auxiliar de bibliotecas, documentalista y conservador de museos, entre otros oficios. En la actualidad, vive en Barcelona. Ha ganado diversos premios, entre los que destacan el Premi Pin i Soler de narrativa 2006, por Llums a la costa, el Premio Ramon Muntaner de literatura juvenil, por Història d'amor a Sarajevo y el Premio Lleida de Narrativa, por Viatge d'hivern a Madeira. Sus libros han sido traducidos al español y al italiano."
+contributors:
+  - first_name: Marcela
+    last_name: Rivera
+    role: ctb
+    bio: "<strong>Marcela Rivera</strong> es profesora y traductora. Actualmente reside en Madrid."
+  - first_name: Àlvar
+    last_name: Masllorens
+    role: ctb
+    bio: "<strong>Àlvar Masllorens</strong> un editor y librero catalán."
+  - first_name: Luisina
+    last_name: Rüedi
+    role: ctb
+    bio: "<strong>Luisina Rüedi</strong> es una traductora catalana nacida en Mendoza en 1982. ha traducido del alemán al español "Don Juan de Kolomea" de Leopold Sacher-Masoch y "La tigresa" de Walter Serner."
+  - first_name: Vanessa
+    last_name: Escuer
+    role: ctb
+    bio: "<strong>Vanessa Escuer</strong> es una periodista catalana"
+author_as_it_appears:
+  - "Jaume Benavente i Cassanyes"
+  - "Contribuciones de Marcela Rivera, Àlvar Masllorens, Vanessa Escuer, Luisina Rüedi"
+project_team:
+  - name: Lucho Tapia
+    role: Editor
+  - name: Tom Fredrickson
+    role: Manuscript Editor
+  - name: Alfred Obiol
+    role: Proofreader
+  - name: Lucho Tapia
+    role: Designer
+  - name: Amita Molloy
+    role: Production
+
+editions:
+  - name: Online
+    type: InteractiveResource
+    format: text/html
+    isbn: 978-1-60606-500-6
+    link: http://www.getty.edu/publications/intrometadata
+    additional_description:
+  - name: Paperback
+    type: PhyiscalObject
+    format: paperback
+    isbn: 978-1-60606-479-5
+    pages: 128
+    illustrations: "11 b/w  illustrations"
+    link: http://shop.getty.edu/products/introduction-to-metadata-third-edition-978-1606064795
+    additional_description:
+  - name: Amazon Kindle (MOBI)
+    type: Text
+    format: application/mobi
+    isbn: 978-1-60606-480-1
+    file_size_mb:
+    link: https://www.amazon.com/dp/B01K4N4ZOY
+    additional_description:
+  - name: Apple iBookstore (EPUB)
+    type: Text
+    format: application/epub+zip
+    isbn: 978-1-60606-480-1
+    file_size_mb:
+    link: http://itunes.apple.com/us/book/id1169121910
+    additional_description:
+  - name: Google Play (EPUB)
+    type: Text
+    format: application/epub+zip
+    isbn: 978-1-60606-480-1
+    file_size_mb:
+    link: https://play.google.com/store/books/details/Murtha_Baca_Introduction_to_Metadata?id=tKPKDAAAQBAJ
+    additional_description:
+  - name: Barnes & Noble NOOK (EPUB)
+    type: Text
+    format: application/epub+zip
+    isbn: 978-1-60606-480-1
+    file_size_mb:
+    link: http://www.barnesandnoble.com/w/1123222581?ean=9781606064801
+    additional_description:
+description: |
+  Metadata provides a means of indexing, accessing, preserving, and discovering digital resources. The volume of digital information available over electronic networks has created a pressing need for standards that ensure correct and proper use and interpretation of the data by its owners and users. Well-crafted metadata is needed more now than ever before and helps users to locate, retrieve, and manage information in this vast and complex universe.
+  The third edition of *Introduction to Metadata*, first published in 1998, provides an overview of metadata, including its types, roles, and characteristics; a discussion of metadata as it relates to web resources; and a description of methods, tools, standards, and protocols for publishing and disseminating digital collections. This revised edition is an indispensable resource in the field, addressing advances in standards such as linked open data, changes in intellectual property law, and new computing technologies, and offering an expanded glossary of essential terms.
+publisher: Libros de la Vorágine
+imprint: la vorágine SCCL
+publisher_short: La vorágine
+publisher_location: Barcelona
+categories:
+  - Reference
+coverage:
+keywords:
+  - literatura
+  - literatura de viajes
+  - crónica literaria
+  - literatura en lengua catalana
+  - chile
+  - xile
+  - autobiografía literaria
+  - nocturno de Portbou
+
+bisac:
+  - code: ART025000
+    subject: "ART / Reference"
+  - code: ART046000
+    subject: "ART / Digital"
+  - code: LAN025000
+    subject: "LANGUAGE ARTS & DISCIPLINES / Library & Information Science / General"
+rights: "© 2017, libros de la voragine"
+languages:
+  - es-CA
+pub_id: 978-1-60606-480-1
+revision_history:
+  - date: April 23, 2017
+    summary:
+      - First release
+
+repository_url: https://www.github.com/lavoragine
+library_of_congress_cip_data:
+  - "Names: Baca, Murtha, editor. | Getty Research Institute, issuing body."
+  - "Title: Introduction to metadata / edited by Murtha Baca."
+  - "Other titles: Introduction to metadata (2016)"
+  - "Description: Third edition. | Los Angeles : Getty Research Institute, [2016] | Includes bibliographical references."
+  - "Identifiers: LCCN 2015046323 (print) | LCCN 2015050428 (ebook) | ISBN 9781606064795 (pbk.) | ISBN 9781606064801 (epub) | ISBN 9781606065006 (online)"
+  - "Subjects: LCSH: Metadata. | Database management. | World Wide Web. | Information organization."
+  - "Classification: LCC QA76.9.D3 I599 2016 (print) | LCC QA76.9.D3 (ebook) | DDC 025.3--dc23"
+  - "LC record available at <a href=\"http://lccn.loc.gov/2015046323\" target=\"_blank\">http://lccn.loc.gov/2015046323</a>"
