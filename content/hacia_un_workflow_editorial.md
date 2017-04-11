@@ -127,4 +127,17 @@ El proceso de corrección es por lo general un proceso que no se termina, sólo 
 
 ````este libro esta totalmente libre de *ratas*````
 
-De lo que se trata es de comprender que un proceso editorial es un flujo y que en general no está nunca acabado. Cómo decía García Marquez acerca del oficio de escritor: los libros no se terminan, se abandonan". la misión del editor es jamás abandonar un libro. Y esta compañía, que en otros tiempos podía suponer una especie de condena eterna, en estos, que tenemos Git y la idea de un workflow como un proceso continuo, es un verbo que describe una realidad: podemos acompañlar ese texto pr que tenemos las herramientas. 
+De lo que se trata es de comprender que un proceso editorial es un flujo y que en general no está nunca acabado. Cómo decía García Marquez acerca del oficio de escritor: los libros no se terminan, se abandonan". la misión del editor es jamás abandonar un libro. Y esta compañía, que en otros tiempos podía suponer una especie de condena eterna, en estos, que tenemos Git y la idea de un workflow como un proceso continuo, es un verbo que describe una realidad: podemos acompañlar ese texto pr que tenemos las herramientas.
+Volvamos a nuestro problema. si el archivo está embebido, está *dentro* del archivo de IDesign y no depende de ningun archivo externo, si en cambio, está vínculado (linkeado) e InDesign tiene que recogerlo de cualquier otra localización de nuestro disco duro, nosotros podemos corregir *ese* archivo y cada vez que actualicemos InDesign, el texto estará actualizado. Por eso necesitamos un archivo fuente que podamos corregir indeendientemente de nuestra plantilla en Indesign y verterlo automáticamente allí, cuando haga falta (y creanme: hará falta)
+
+#### Una corrección al workflow
+
+Hay sin embargo un camino. desde 2014 pandoc añadió a su asombroso repertorio la capacidad de escribir archivos en formato ICML. esto va a sonar esotérico a mucha gente, incluso a algunos diseñadores qe trabajan frecuentemente con InDesign. ICML es la extención propia de los archivos que escribe InCopy, el ignorado procesador de texto que incluye InDesign y que no es otra cosa que una versión en XML de nuestro texto, lo que quere decir que ese texto tiene un etiquetado semántico y puede interpretar todo el etiquetado que hallamos aplicado a nuestro archivo en markdown y verterlo de esta manera en indesign. lo más importante: si "colocamos" un archivo ICML en InDesign (en nuestra plantilla) esté archivo estará vínculado con la plantilla, o sea: residirá fuera, en otra carpeta, y podremos generar esa extención cada vez que corrijamos el archivo (que añadamos unas itálicas olvidadas, que quitemos un espacio que no debe estar ahí, que lo *mejoremos* de cualquier manera): esto supone una mejora sustanial en nuestro workflow, por que podemos editar cuanto queramos uestro archivo original, verterlo en nuestro archivo de InDesign, y tener un PDF actualizado.
+
+Esto significa que no necesitamos trabajar realmente en otro formato que no sea markdown. Y eso evita todos los errores que por lo general contempla el proceso de introducción manual de datos despues de una corrección en papel.
+
+#### Un paso más
+
+Sería, naturalmente, eliminar InDesign del todo y trabajar con TeX o cualquier otra herramienta open source. Las hay. Sólo que esto requiere trabajar con plantillas y aquello es un trabajo abstruso. Uno de los propósitos futuros de este workflow es generar plantillas en TeX o utilizar PrinceXML como procesador para nuestros PDFs.
+
+## Posproducción
