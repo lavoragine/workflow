@@ -138,6 +138,24 @@ Esto significa que no necesitamos trabajar realmente en otro formato que no sea 
 
 #### Un paso más
 
-Sería, naturalmente, eliminar InDesign del todo y trabajar con TeX o cualquier otra herramienta open source. Las hay. Sólo que esto requiere trabajar con plantillas y aquello es un trabajo abstruso. Uno de los propósitos futuros de este workflow es generar plantillas en TeX o utilizar PrinceXML como procesador para nuestros PDFs.
+Sería, naturalmente, eliminar InDesign del todo y trabajar con TeX o cualquier otra herramienta *open source*. Las hay. Sólo que esto requiere trabajar con plantillas y aquello es un trabajo abstruso. Uno de los propósitos futuros de este workflow es generar plantillas en TeX o utilizar PrinceXML como procesador para nuestros PDFs.
 
 ## Posproducción
+
+Al final tenemos una carpeta con archivos listos para producción. Ya hemos mencionado que uno de los propósitos de este workflow (fuera de la automatización de procesos) era generar libros completamente accesibles o, al menos, inclusivos.
+
+Esto se consigue de muchas maneras. La más básica es asegurarse de que el libro posea una estructura semántica y una organización lógica lineal, que cualquier dispositivo que quiera interpretar el texto (para ofrecerlo en una interface accesible) va a ser capaz de entender qué significa cada parte del texto (si algo es un encabezado, o un párrafo, o si la imagen tiene un texto alternativo). Luego, se trata de mejorarlos.
+
+Si subimos el texto a una plataforma capaz de generar audio sintético (amazon o apple, por ejemplo) para un texto dado y este texto sigue ciertas directrices, una persona será capaz de poner nuestro libro electrónico en modo audio y este sencillamente contará el texto. Si esto es posible, ¿Cómo podemos mejorar el texto para que sea completamente accesible?
+
+Existen varias maneras. Una de ellas es agregar más *outputs* de salida para imprenta en PDF. Otra, es añadir *media overlays*.
+
+### PDFs alternativos y POD
+
+
+
+### Media Overlays
+
+Los *MediaOverlays* es una parte de la especificación epub3 y consiste en la capacidad del ebook para sicronizar audio y texto. Esto no es trivial.
+
+## Marketing
