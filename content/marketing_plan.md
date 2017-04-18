@@ -2,7 +2,6 @@
 
 Cada día en algún artículo en prensa o en algún post en la web algún editor se queja de que en España se editan y publican demasiados libros. Naturalmente, si uno es editor, esta no es una razón para dejar de publicar libros (el editor cree que su libro es necesario, de alguna manera, y que va a enriquecer la vida de sus posibles lectores, de lo contrario no emprendería la penosa y a menudo onerosa tarea de editarlo e imprimirlo)), aunque si lo es para preguntarse cómo podemos hacer que nuestro libro *exista* para sus lectores lectores. Lo que nos lleva a la cuestión del marketing: ¿Qué significa una buena campaña de marketing para un libro? ¿Qué necesitamos hacer o saber para impulsar el descubrimiento de nuestro libro por sus potenciales lectores?
 
-Sabemos también que un libro, en la medida en que es un objeto puesto a la venta, puede tener y necesita una estrategia para convencer a su mercado objetivo que el dinero invertido en el es dinero bien gastado. Aquí las cosas se vuelven un poco más complicadas. La necesidad de un libro en concreto no es algo objetivo y por tanto no se puede medir con las herramientas habituales para realizar este tipo de estadística. La gente compra libros por un número de razones, y ninguna de ellas tiene que ver con una necesidad. También es cierto que muchos, la vasta mayoría, en efecto, de objetos que se ponen a la venta no satisfacen necesidades primarias. Un coche deportivo no es *necesario* para la vida de nadie y, ni siquiera, es algo que uno adquiere por comodidad: se trata aquí de estatus, del hecho de ese objeto adquiere un valor de uso, pero también como algo que se exibe.
 
 ## ¿Cómo se decide la compra de un libro?
 
@@ -37,18 +36,22 @@ Los metadatos han sido estandarizados, codificados e indexados por los profesion
 
 Todo esto nos lleva de vuelta al algoritmo de Google: la compleja red de información que describe los millones de documentos archivados (libros, pero también revistas, catálogos, grabaciones de audio, registros de entrevistas, etc...) y el mismo flujo de esta información, exigen tecnologías complejas de transmisión. XML, JSON, son ahora palabras de uso común en ciertos sectores editoriales y describen esquemas de trasnsmisión y compartición de datos. Pero, como ya hemos mencionado, tal vez sea mucho pedir que los reseñistas que acuden a Goodreads para reseñar un libro o el pequeño editor que edita un puñado de títulos al año empleen (o siquiera entiendan) esas tecnologías. De manera que han proliferado una serie de sistemas de catalogación (por que eso es lo que son) de la información que se comparte día tras día en redes sociales que dependen mucho más del lenguaje natural y se estructuran de una manera muchísimo más libre. Hablamos de los *Hashtags* de Twitter, de las categorías que nos permiten movernos con cierta comodidad en un blog, de las etiquetas que hacen navegable un documento extenso.
 
-## pero los metadatos si son fundamentales
+## Pero los metadatos sí son fundamentales
 
 Naturalmente podríamos preguntarnos si un editor debería tomarse tantas molestias, aunque sospechemos que de alguna manera los metadatos ayudan a las ventas de un libro. Sin embargo, el impacto de la correcta asignación de metadatos en los libros editados ha sido cuantificado. Un estudio de Nielsen Book, muestra el dramático efecto que tiene sobre las ventas de libros el hecho de que estos sean lanzados con un conjunto correcto de matadatos asociados.
 
 ![metadata: promedio de ventas por ISBN](../images/nielsen_metadata_estadisticas.png "promedio de ventas por ISBN")
+
+Esto nos lleva al quid de la cuestión. Es probable que sigamos necesitando presentaciones de libros (aunque es un hecho conocido que cada vez asiste menos gente a ese tipo de eventos) y que las reseñas en periódicos sean todavía una aspiración necesaria. Pero lo cierto es que, hagamos lo que hagamos, necesitamos una estrategia para generar, mantener y propagar nuestros metadatos. Esa es la base de un plan de marketing en el mundo digital.
 
 ## estrategias
 
 Hasta ahora se han descrito muy someramente las razones de por qué los metadatos son la base de cualquier estrategia de marketing en entornos digitales. Ahora vamos a examinar algunas estrategias puntuales para incorporar los metadatos en nuestro workflow y hacerlos trabajar a nuestro favor.
 
 
-##
+## ¿Donde está nuestra metadata?
+
+En el [documento donde desarrollamos el workflow editorial] (https://github.com/lavoragine/workflow/blob/master/content/hacia_un_workflow_editorial.md) 
 ### El ISBN
 
 Cualquier editor está obligado a obtener un [ISBN] cuando decide lanzar un nuevo título al mercado. En España, el ISBN está gestionado por la agencia del ISBN que, a su vez, depende de la Federación de Gremios de Editores de España. para dar de alta un libro en esta plataforma, se han de proporcionar ciertos datos, son los metadatos centrales de un libro. Pero además, es posible añadir una serie de campos de metadatos (los "metadatos ricos") que incluyen
