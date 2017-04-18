@@ -51,7 +51,7 @@ Hasta ahora se han descrito muy someramente las razones de por qué los metadato
 
 ## ¿Donde está nuestra metadata?
 
-En el [documento donde desarrollamos el workflow editorial] (https://github.com/lavoragine/workflow/blob/master/content/hacia_un_workflow_editorial.md) 
+En el [documento donde desarrollamos el workflow editorial](https://github.com/lavoragine/workflow/blob/master/content/hacia_un_workflow_editorial.md) 
 ### El ISBN
 
 Cualquier editor está obligado a obtener un [ISBN] cuando decide lanzar un nuevo título al mercado. En España, el ISBN está gestionado por la agencia del ISBN que, a su vez, depende de la Federación de Gremios de Editores de España. para dar de alta un libro en esta plataforma, se han de proporcionar ciertos datos, son los metadatos centrales de un libro. Pero además, es posible añadir una serie de campos de metadatos (los "metadatos ricos") que incluyen
